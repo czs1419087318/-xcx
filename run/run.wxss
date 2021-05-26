@@ -1,0 +1,78 @@
+/* pages/run/run.wxss *//* pages/run/run.wxss */
+
+
+input{
+  width: 520rpx;
+  border: 2rpx solid #00f;
+  margin: 50rpx auto;
+  border-radius:10rpx; 
+  align-items: center;
+}
+.option1{
+  width: 100%;
+  border: 2rpx solid #64db15;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.option2{
+  width: 100%;
+  border: 2rpx solid #222;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.option3{
+  width: 100%;
+  border: 2rpx solid #f0f;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.option4{
+  width: 100%;
+  height: 100%;
+  border: 2rpx solid #222;
+  text-align: center;
+  align-items: center;
+  border-radius: 10rpx;
+}
+.link{
+  display: flex;
+  height: 340rpx;
+  text-align: center;
+  width: 100%;
+}
+.userinfo2{
+  height: 200rpx;
+}
+.tlink{
+  display: flex;
+  width: 100%;
+  height: 350rpx;
+  text-align: center;
+  width: 100%;
+}
+.runner{  
+  height: 100%;
+  width: 100%;
+  background: rgba(149, 245, 136, 0.39);
+}
+.fristBlock{
+  width:100%;
+  display:inline-flex;
+  flex-direction: row;
+  
+}
+input{
+  width: 25%;
+  height: 100%;
+  flex-grow: 20rpx;
+}
+image{
+  width: 100rpx;
+  height:100rpx;
+ 
+}
+.seconedBlock{
+  display: flex;
+  flex-grow: 1;
+}
+

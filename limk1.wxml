@@ -1,0 +1,16 @@
+<view>
+  
+  <text class ="letter">
+    大安，吉卦，静卦，
+    一个字，稳
+　　坚持现状便不错
+　　问感情，问女孩子则好，感情顺畅。但问男子则较差，感情稳，但枯燥。
+　　目前工作应该稳定，可得上司赏识，不作就没事
+    身体也挺好，就是别太肝了。
+　　问路人：人没事，就是不想鸟你。
+    出事最多就是小惊小吓。
+
+  </text>
+  <button class ="botto1" catchtap="return">Return</button>
+  <image src="/pages/static/2.jpg" style="width: 750rpx; height: 563rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+  </view>

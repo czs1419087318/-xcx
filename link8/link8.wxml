@@ -1,0 +1,7 @@
+<view class="imageCenter">
+<image src="cloud://cloud1-5gd4m1i90f68e6e6.636c-cloud1-5gd4m1i90f68e6e6-1305494663/static/阵法.ipg" catchtap="show"  ></image>
+</view><view>{{text}}</view>
+
+<view style="width: 750rpx; height: 570rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+  <button catchtap="return" type="warn" style="position: relative; left: -38rpx; top: 671rpx">RETURN</button>
+</view>

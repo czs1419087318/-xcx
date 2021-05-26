@@ -1,0 +1,31 @@
+<!--pages/run/run.wxml-->
+<view >
+    <view class="weui-cells__title" style="width: 750rpx; height: 54rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">您输入的值是：</view> 
+        <view class="fristBlock">
+          <van-icon style="width: 38rpx; height: 155rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  name="star" />
+        <input   type="number"   bindinput="bindKeyInput" placeholder="月（阴历）"></input>
+        <van-icon name="star" />
+        <input   type="number"  bindinput="bindKeyInput1" placeholder="日（阴历）"></input>
+        <van-icon name="star" />
+        <input   type="number"   bindinput="bindKeyInput2" placeholder="时（24成都）"></input>
+        </view>
+    <view class="firstBotton">
+ 
+        <van-button  catchtap="link1" type="primary"  size="normal"style="position: relative"  style="position: relative; left: 120rpx; top: 0rpx">完成</van-button>
+        <van-button  catchtap="link2" type="primary" size="normal"style="left: 15rpx;position: relative"  style="position: relative; left: 303rpx; top: 0rpx">返回</van-button>
+  </view>
+  <text>当前时间：{{time}}</text>
+  <view class="seconedBlock">
+    <van-icon name="star" />
+  <van-cell-group>
+  <van-field bindinput="inputValue3" placeholder="输入一个三位数（如123）" placeholder-style="color:#444" style="width: 570rpx; height: 80rpx; display: block;flex-grow:1; box-sizing: border-box; left: NaNrpx; top: NaNrpx"/>
+  </van-cell-group>
+   </view>
+  <view class ="tlink"  style="width: 750rpx; height: 441rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <button class ="option3" catchtap="link3" type="default" size="mini" style="width: 155rpx; height: 78rpx; display: block; box-sizing: border-box; left: 15rpx; top: 78rpx; position: relative">Enter</button>
+    <button class ="option4" catchtap="link4" type="normal" size="mini" style="width: 183rpx; height: 78rpx; display: block; box-sizing: border-box; left: -47rpx; top: 78rpx; position: relative">Retrun</button>
+  </view>
+</view>
+<view>
+<button class="option5" catchtap="link5" type="primary">查看历史记录</button>
+</view>

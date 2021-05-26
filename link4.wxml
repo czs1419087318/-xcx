@@ -1,0 +1,15 @@
+<!--pagesnk1mk1.wxml-->
+<view class ="page1" style="width: 750rpx; height: 647rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+ <text class="letter">赤口
+
+　　卜到赤口为凶卦，代表运势多舛，而且诸多纷争亦有口舌之祸。
+　　运气不好，若有大计划就要赶快实施、不要拖延，则可成功。若是小事则不成。
+　　遇到东西不要捡，大得大失。
+　　感情屁事多，或对面有病（生物）。
+　　粗活还行，若为文科（作业写不完）则不顺。
+　　胸口、支气管，赤口有流行疾病的意义。
+
+    所问之人目前有困难或者有事情纠缠。</text>
+ </view>
+ <button class ="botto1" catchtap="return" type="warn">Return</button>
+ <image src="/pages/static/2.jpg"></image>

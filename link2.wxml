@@ -1,0 +1,17 @@
+<view>
+  
+  <text class ="letter">
+    留连，凶卦，
+    顾名思义，卡，堵
+    所以心情不开心，凡事受阻。
+    破财之卦
+　　问感情：双方沟通不良、冷战、或者一方过于强势，感情不得平衡。
+　　问事业：被上司盯或者被人扯后腿，小人之卦。
+　　问身体：肠胃不舒服或者精神压力太大所得之病。
+　　问行人：人平安，但目前仍流连忘返
+
+
+  </text>
+  <button class ="botton1" catchtap="return">Return</button>
+  <image src="/pages/static/2.jpg" style="width: 750rpx; height: 563rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+  </view>

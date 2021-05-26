@@ -1,0 +1,20 @@
+<view class="showResult" wx:for="{{result}}" >
+<view wx:if="{{item.result==0}}">大安{{item.time}}</view>
+<view wx:if="{{item.result==1}}">流连{{item.time}}</view>
+<view wx:if="{{item.result==2}}">速喜{{item.time}}</view>
+<view wx:if="{{item.result==3}}">赤口{{item.time}}</view>
+<view wx:if="{{item.result==4}}">小吉{{item.time}}</view>
+<view wx:if="{{item.result==5}}">空亡{{item.time}}</view>
+</view>
+<van-empty description="到底了" />
+<van-sticky offset-top="{{ 350 }}">
+<view>
+  <van-button catchtap="return" size="large" type="nomal">RETURN</van-button>
+</view>
+<view>
+  <button catchtap="showRecent" type="default">查看近期运势</button>
+</view>
+<view>
+  <van-button bind:click="onClick" bindtap="clearData" color="linear-gradient(to right, #4bb0ff, #6149f6)" size="large" type="warn">清空数据</van-button>
+</view>
+</van-sticky>

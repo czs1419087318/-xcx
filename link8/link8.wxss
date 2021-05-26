@@ -1,0 +1,10 @@
+/* pages/link8/link8.wxss */
+imageCenter{
+
+  display: flex;
+  justify-content: center;
+}
+image{
+    height: 250rpx;
+  width: 250rpx;
+}

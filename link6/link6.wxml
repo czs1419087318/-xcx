@@ -1,0 +1,14 @@
+<view>
+  
+  <text class ="letter">
+    空亡
+       呕吼完蛋，干啥啥不行，不要贪，洗洗睡吧
+    　　自身拿不定主意，无所适从，可多听取他人之意见，切莫随意就做判断。
+    　　求财难得，保守为要。
+    　　容易吵起来
+    　　工作失利，容易被人陷害或者暗中耳语
+    　  脾胃出毛病，或者神经病。
+  </text>
+  <button class ="botton1" catchtap="return">Return</button>
+  <image src="/pages/static/2.jpg" style="width: 750rpx; height: 563rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+  </view>

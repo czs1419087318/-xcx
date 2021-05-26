@@ -1,0 +1,15 @@
+<view>
+  
+  <text class ="letter">
+    速喜为吉卦
+    好运来
+　　努力就有收获，事不宜迟
+　　钱财上，好坏相连，见好马上收。
+　  情感上，不是热恋就是吵嘴。
+　　问事业：工作得利，但须注意文件上的疏失。
+　  心，脑，血管有点小毛病。
+　　问行人：人已经快到了。
+  </text>
+  <button class ="botton1" catchtap="return">Return</button>
+  <image src="/pages/static/2.jpg" style="width: 750rpx; height: 563rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+  </view>
